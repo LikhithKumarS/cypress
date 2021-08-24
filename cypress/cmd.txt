@@ -21,3 +21,8 @@ node_modules\.bin\cypress run --spec
 //npx ==until node_modules
 //npx cypress-tags run -e TAGS="smoke"
 =======.
+
+
+powershell Set-ExecutionPolicy RemoteSigned
+
+mpm init

@@ -1,5 +1,5 @@
 {
-  "name": "iteaser_cypress_automation",
+  "name": "cypress_automation",
   "version": "1.0.0",
   "description": "UI Automation ",
   "main": "index.js",
@@ -10,15 +10,6 @@
     "iteaser": "npm run test -- --spec 'cypress//integration//iteaser/*'",
     "chrome": "npm run test -- --headed --browser chrome ",
     " ": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Likhith-QA/iteaser_cypress_automation.git"
-  },
-  "author": "Likhith-QA",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Likhith-QA/iteaser_cypress_automation/issues"
   },
   "homepage": "https://github.com/Likhith-QA/iteaser_cypress_automation#readme",
   "devDependencies": {

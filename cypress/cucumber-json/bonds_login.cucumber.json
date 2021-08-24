@@ -1,0 +1,77 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "bonds login page",
+    "line": 1,
+    "id": "bonds-login-page",
+    "tags": [],
+    "uri": "bonds_login.feature",
+    "elements": [
+      {
+        "id": "bonds-login-page;login-bonds-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login bonds with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to bonds url",
+            "result": {
+              "status": "failed",
+              "duration": 162000000,
+              "error_message": "TypeError: The following error originated from your application code, not from Cypress.\n\n  > $(...).owlCarousel is not a function\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nBecause this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `bonds login page`\n    at https://www.bondsindia.com/assest/js/bonds-india.js:43:27\nFrom previous event:\n    at Object.run (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:170471:21)\n    at Object.run (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:156667:15)\n    at $Cy.cy.<computed> [as then] (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:157821:17)\n    at __stackReplacementMarker (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:157130:13)\n    at Context.runnable.fn (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:158045:21)\n    at callFn (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:112798:21)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:112785:7)\n    at https://www.bondsindia.com/__cypress/runner/cypress_runner.js:164511:28\nFrom previous event:\n    at Object.onRunnableRun (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:164496:17)\n    at $Cypress.action (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:154154:28)\n    at Hook.Runnable.run (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:162243:13)\n    at next (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:113300:10)\n    at https://www.bondsindia.com/__cypress/runner/cypress_runner.js:113344:5\n    at timeslice (https://www.bondsindia.com/__cypress/runner/cypress_runner.js:107270:27)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "fsjfg",
+                      "dbsbhb"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter <username> and <password>",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to view DealSummary page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

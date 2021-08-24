@@ -5,7 +5,8 @@ import LoginPage from "../../../support/pageObjects/LoginPage";
 const loginpage = new LoginPage();
 let name;
 Given("I navigate to bonds url", function () {
-  cy.visit("");
+  cy.visit("https://www.bondsindia.com/");
+  cy.get(':nth-child(7) > .navigation-link').click();
 });
 
 
