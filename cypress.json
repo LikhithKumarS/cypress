@@ -1,0 +1,6 @@
+{
+    "viewportWidth": 1200,
+    "viewportHeight": 850,
+    "reporter":"mochawesome",
+    "testFiles": "**/*.feature"
+  }

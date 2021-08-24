@@ -1,0 +1,23 @@
+<<<<<<< 001_testcase_develop
+=======
+cypress open 
+ npm install cypress --save-dev
+
+node_modules\.bin\cypress run 
+
+npm install -D cypress-iframe 
+
+node_modules\.bin\cypress open 
+
+=======
+not to perform install on project
+
+node_modules\.bin\cypress run --spec 
+//npm run test
+
+//test fail2  retries in cypress json cypress v5
+.
+//tags can be ran only with cypress
+//npx ==until node_modules
+//npx cypress-tags run -e TAGS="smoke"
+=======.

@@ -1,0 +1,41 @@
+{
+  "name": "iteaser_cypress_automation",
+  "version": "1.0.0",
+  "description": "UI Automation ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headtest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "iteaser": "npm run test -- --spec 'cypress//integration//iteaser/*'",
+    "chrome": "npm run test -- --headed --browser chrome ",
+    " ": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Likhith-QA/iteaser_cypress_automation.git"
+  },
+  "author": "Likhith-QA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Likhith-QA/iteaser_cypress_automation/issues"
+  },
+  "homepage": "https://github.com/Likhith-QA/iteaser_cypress_automation#readme",
+  "devDependencies": {
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
