@@ -22,7 +22,9 @@ node_modules\.bin\cypress run --spec
 //npx cypress-tags run -e TAGS="smoke"
 =======.
 
-
+to new frame work use npm init for package.json 
+//on error use this on administrator cmd
 powershell Set-ExecutionPolicy RemoteSigned
 
-mpm init
+npm install 
+and node_modules\.bin\cypress open
