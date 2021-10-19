@@ -1,15 +1,15 @@
 class LoginPage{
  getloginbutton(){
-   return cy.get('.login-button-primary')
+   return cy.get('.active > :nth-child(6) > .col > .login__btn')
  }
  getusernamerfield(){
-   return cy.get('#username')
+   return cy.get('#email')
  }
  getPasswordfield(){
    return cy.get('#password')
  }
 geterrormessage(){
-  return cy.get('.login-error-msg')
+  return cy.get('.login__error')
 }
 
 }
