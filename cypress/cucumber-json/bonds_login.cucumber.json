@@ -22,7 +22,7 @@
             "name": "I navigate to bonds url",
             "result": {
               "status": "passed",
-              "duration": 3157000000
+              "duration": 4681000000
             }
           },
           {
@@ -49,7 +49,7 @@
             "name": "I enter <username> and <password>",
             "result": {
               "status": "passed",
-              "duration": 1830000000
+              "duration": 1185000000
             }
           },
           {
@@ -59,7 +59,7 @@
             "name": "I click on login button",
             "result": {
               "status": "passed",
-              "duration": 1932000000
+              "duration": 1739000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "I should be able to view error msg",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 46000000
             }
           }
         ]

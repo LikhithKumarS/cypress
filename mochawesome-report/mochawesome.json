@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2021-08-24T15:52:55.522Z",
-    "end": "2021-08-24T15:52:58.397Z",
-    "duration": 2875,
+    "failures": 0,
+    "start": "2021-12-29T15:23:07.234Z",
+    "end": "2021-12-29T15:23:19.078Z",
+    "duration": 11844,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "713e373d-42f1-4ad8-8011-9335cb61c5b9",
+      "uuid": "6dd836f0-7db6-43a0-b40c-7a059255a585",
       "title": "",
       "fullFile": "cypress/integration/automation/bonds_login.feature",
       "file": "cypress/integration/automation/bonds_login.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e936c133-e806-4b0a-8404-577ec0efe9ee",
+          "uuid": "8d72c4b1-8eb7-49c0-802b-078c861e3920",
           "title": "bonds login page",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Login bonds with valid credentials",
               "fullTitle": "bonds login page Login bonds with valid credentials",
               "timedOut": null,
-              "duration": 1818,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 7608,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "CypressError: `cy.visit()` failed trying to load:\n\nWe failed looking for this file at the path:\n\n/Users/Noisyboy/Documents/cypress/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found",
-                "estack": "CypressError: `cy.visit()` failed trying to load:\n\nWe failed looking for this file at the path:\n\n/Users/Noisyboy/Documents/cypress/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at http://localhost:55071/__cypress/runner/cypress_runner.js:144031:25\n    at visitFailedByErr (http://localhost:55071/__cypress/runner/cypress_runner.js:143406:12)\n    at http://localhost:55071/__cypress/runner/cypress_runner.js:144011:13\n    at tryCatcher (http://localhost:55071/__cypress/runner/cypress_runner.js:13222:23)\n    at Promise._settlePromiseFromHandler (http://localhost:55071/__cypress/runner/cypress_runner.js:11157:31)\n    at Promise._settlePromise (http://localhost:55071/__cypress/runner/cypress_runner.js:11214:18)\n    at Promise._settlePromise0 (http://localhost:55071/__cypress/runner/cypress_runner.js:11259:10)\n    at Promise._settlePromises (http://localhost:55071/__cypress/runner/cypress_runner.js:11335:18)\n    at _drainQueueStep (http://localhost:55071/__cypress/runner/cypress_runner.js:7929:12)\n    at _drainQueue (http://localhost:55071/__cypress/runner/cypress_runner.js:7922:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:55071/__cypress/runner/cypress_runner.js:7938:5)\n    at Async.drainQueues (http://localhost:55071/__cypress/runner/cypress_runner.js:7808:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:55071/__cypress/tests?p=cypress\\integration\\automation\\bonds_login.feature:58:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:55071/__cypress/tests?p=cypress\\integration\\automation\\bonds_login.feature:12446:29)\n    at Context.eval (http://localhost:55071/__cypress/tests?p=cypress\\integration\\automation\\bonds_login.feature:11767:35)",
-                "diff": null
-              },
-              "uuid": "0dd805e5-07bc-4d76-94bd-201b2d57f726",
-              "parentUUID": "e936c133-e806-4b0a-8404-577ec0efe9ee",
+              "err": {},
+              "uuid": "9841a35b-42d3-4940-a43f-1dcfd8545958",
+              "parentUUID": "8d72c4b1-8eb7-49c0-802b-078c861e3920",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "0dd805e5-07bc-4d76-94bd-201b2d57f726"
+          "passes": [
+            "9841a35b-42d3-4940-a43f-1dcfd8545958"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1818,
+          "duration": 7608,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
