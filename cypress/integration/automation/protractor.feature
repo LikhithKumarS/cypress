@@ -1,7 +1,7 @@
-Feature: bonds login page
+Feature: protractor login page
     
     Scenario: Login bonds with valid credentials
-        Given I navigate to bonds url
+        Given I navigate to protractor url
         When  I enter <username> and <password>
         |username|password|
         |likhithjune@gmail.com|dbsbhb|

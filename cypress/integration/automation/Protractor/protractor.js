@@ -5,7 +5,7 @@ import LoginPage from "../../../support/pageObjects/LoginPage";
 const loginpage = new LoginPage();
 let name;
 Given("I navigate to bonds url", function () {
-  cy.visit("https://client.bondsindia.com");
+  cy.visit("https://juliemr.github.io/protractor-demo/");
 });
 
 
